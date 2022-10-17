@@ -1,19 +1,3 @@
-data:extend({
-      {
-	 type = "recipe",
-	 name = "floating-electric-pole",
-	 enabled = false,
-	 ingredients = {
-	    {"empty-barrel", 4},
-	    {"big-electric-pole", 1},
-	    {"iron-plate", 5}
-	 },
-	 result = "floating-electric-pole",
-	 result_count = 1
-      },
-})
-
-
 local vanilla_lamp = data.raw["lamp"]["small-lamp"]
 vanilla_lamp.fast_replaceable_group = "lamp"
 
@@ -28,3 +12,22 @@ floating_lamp.darkness_for_all_lamps_off = 0.1
 floating_lamp.glow_render_mode = "multiplicative"
 floating_lamp.fast_replaceable_group = "lamp"
 data:extend({floating_lamp})
+
+data:extend({
+      {
+	 type = "recipe",
+	 name = "floating-lamp",
+	 enabled = false,
+	 ingredients =
+	    {
+	       {"electronic-circuit", 1},
+	       {"copper-cable", 3},
+	       {"empty-barrel", 4},
+	       {"iron-plate", 1}
+	    },
+	 result = "floating-lamp",
+	 result_count = 1
+      },
+})
+
+
