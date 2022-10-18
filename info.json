@@ -5,6 +5,6 @@
     "title": "Floating Lamps",
     "author": "toran.mallow",
     "description": "Floating Lamps",
-    "dependencies": ["base >= 1.1"],
+    "dependencies": ["base >= 1.1", "? Dectorio >= 0.12.6", "? cargo-ships >= 0.1.10"],
     "homepage": ""
 }
