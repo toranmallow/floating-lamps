@@ -10,7 +10,7 @@ A mod for Factorio that adds floating lamps
 
 ## Mod Integrations
 
-* [https://mods.factorio.com/mod/cargo-ships](Cargo Ships) - Makes Floating Electric Poles provide electricity around them like a substation
+* [Cargo Ships](https://mods.factorio.com/mod/cargo-ships) - Makes Floating Electric Poles provide electricity around them like a substation
 
 ## Acknowledgments
 
