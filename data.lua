@@ -3,7 +3,7 @@ data:extend{
   {
     type = "item",
     name = "floating-lamp",
-    icon = "__base__/graphics/icons/small-lamp.png",
+    icon = "__floating-lamps__/graphics/icons/floating-lamp.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "circuit-network",
     order = "a[light]-a[small-lamp-floating]",
